@@ -34,3 +34,24 @@ int main(){
 	double Ra2c[5]={ (a2c[0]/mc1),(a2c[1]/mc2),(a2c[2]/mc3),(a2c[3]/mc4),(a2c[4]/mc5) };
 	double Ra3c[5]={ (a3c[0]/mc1),(a3c[1]/mc2),(a3c[2]/mc3),(a3c[3]/mc4),(a3c[4]/mc5) };
 	//r
+		cout << endl<<endl;
+		cout << "MATRIX R :"<<endl;
+	int sapi1=0;
+	do{
+		cout << Ra1c[sapi1]<<" | ";
+		sapi1++;
+	}while(sapi1<5);cout<<endl;
+		int sapi2=0;
+	do{
+		cout << Ra2c[sapi2]<<" | ";
+		sapi2++;
+	}while(sapi2<5);cout<<endl;
+		int sapi3=0;
+	do{
+		cout << Ra3c[sapi3]<<" | ";
+		sapi3++;
+	}while(sapi3<5);cout<<endl;
+	//bb w
+	double w1=5, w2=3, w3=4, w4=4, w5=2;
+	cout << endl << "BOBOT W :"<<endl<< w1<<" | "<< w2<<" | "<< w3<<" | "<< w4<<" | "<< w5<<" | "<<endl;
+	//r*w
